@@ -27,3 +27,14 @@ Variables that were used from these signals:
 
 ###Data manipulation
 The raw data was processed using the following script: run_analysis.R
+
+###Data merging
+All the data related to test was merged to the traning data. Namely, x_train.txt, x_test.txt, and combined with subject data, subject_train.txt, subject_test.txt and activity ID - y_train.txt, y_test.txt. The above data was all merged to obtain one dataset. 
+
+###Getting the mean and standard deviation variables
+
+With the merged dataset, I extracted variables with the word 'mean' and those with the word 'std'
+
+###Creating a Tidy dataset
+
+From the dataset created in the previous step, the numeric variables were averaged for each activity and each subject
